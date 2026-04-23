@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <!-- BPC Isometric Cube Logo -->
+
+  <!-- Top face - Blue "B" -->
+  <polygon points="100,10 190,55 100,100 10,55" fill="#2E7ABF"/>
+  <!-- B cutouts on top -->
+  <polygon points="55,42 75,32 75,47 55,57" fill="white"/>
+  <polygon points="55,57 75,47 75,62 55,72" fill="white"/>
+  <polygon points="125,32 145,42 145,57 125,47" fill="white"/>
+  <polygon points="125,47 145,57 145,72 125,62" fill="white"/>
+
+  <!-- Left face - Green "P" -->
+  <polygon points="10,55 100,100 100,190 10,145" fill="#2E8B3E"/>
+  <!-- P cutouts on left -->
+  <polygon points="30,80 55,92 55,110 30,98" fill="white"/>
+  <polygon points="30,112 55,124 55,155 30,143" fill="white"/>
+
+  <!-- Right face - Light Blue "C" -->
+  <polygon points="100,100 190,55 190,145 100,190" fill="#5BAFC5"/>
+  <!-- C cutouts on right -->
+  <polygon points="145,80 170,68 170,86 145,98" fill="white"/>
+  <polygon points="145,142 170,130 170,148 145,160" fill="white"/>
+</svg>
