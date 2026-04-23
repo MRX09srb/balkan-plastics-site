@@ -1,0 +1,8 @@
+.netlify/
+*.ai
+*.pdf
+Sajt.docx
+VID-*.mp4
+variant*.mp4
+clip_*.mp4
+combined_*.mp4
