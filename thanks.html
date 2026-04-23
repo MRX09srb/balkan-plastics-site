@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - Balkan Plastics Company</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .thanks-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0a1e37 0%, #1a3a5c 40%, #2E7ABF 100%);
+      padding-top: 90px;
+    }
+    .thanks-content {
+      text-align: center;
+      color: #fff;
+      max-width: 600px;
+      padding: 40px;
+    }
+    .thanks-icon {
+      width: 80px;
+      height: 80px;
+      background: rgba(255,255,255,0.1);
+      border: 2px solid rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+    }
+    .thanks-icon svg {
+      width: 40px;
+      height: 40px;
+      color: #F0A500;
+    }
+    .thanks-content h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+    .thanks-content p {
+      color: rgba(255,255,255,0.75);
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+    .thanks-content .thanks-note {
+      color: rgba(255,255,255,0.5);
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+    }
+    .thanks-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .thanks-buttons .btn {
+      min-width: 180px;
+    }
+    .countdown {
+      margin-top: 24px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header scrolled">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="img/LOGO-BP.png" alt="Balkan Plastics Company" class="logo-img header-logo-img">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <div class="nav-dropdown">
+          <a href="javascript:void(0)" class="nav-dropdown-trigger"><span data-i18n="nav_products">Products</span><span class="nav-arrow"></span></a>
+          <div class="nav-dropdown-menu">
+            <a href="multiwall.html" data-i18n="product_multiwall_title">Multiwall Polycarbonate Sheets</a>
+            <a href="solid.html" data-i18n="product_solid_title">Solid Polycarbonate Sheets</a>
+            <a href="profiles.html" data-i18n="product_accessories_title">Profiles & Thermal Washers</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="applications.html" class="nav-dropdown-trigger"><span data-i18n="nav_applications">Applications</span><span class="nav-arrow"></span></a>
+          <div class="nav-dropdown-menu">
+            <a href="construction.html" data-i18n="app_construction">Construction & Architecture</a>
+            <a href="agriculture.html" data-i18n="app_agriculture">Agriculture & Greenhouses</a>
+            <a href="industrial.html" data-i18n="app_industrial">Industrial & Safety</a>
+            <a href="signage.html" data-i18n="app_signage">Signage & Design</a>
+          </div>
+        </div>
+        <a href="index.html#about" data-i18n="nav_about">About Us</a>
+        <a href="index.html#quality" data-i18n="nav_quality">Quality</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <div class="mobile-nav-contact">
+          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg><span>Magnetna polja BB, Subotica 24000</span></div>
+          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/></svg><span>info@balkanplastics.com</span></div>
+          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/></svg><span>+381 11 000 0000</span></div>
+          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="contact_hours_val">Mon - Fri: 08:00 - 17:00</span></div>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="sr">SR</button>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Thank You -->
+  <section class="thanks-section">
+    <div class="thanks-content">
+      <div class="thanks-icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h1 data-i18n="thanks_title">Thank You!</h1>
+      <p data-i18n="thanks_message">Your message has been sent successfully. Our team will review your inquiry and get back to you within 24 hours.</p>
+      <p class="thanks-note" data-i18n="thanks_note">If you don't receive a response, please check your spam folder or contact us directly by phone.</p>
+      <div class="thanks-buttons">
+        <a href="index.html" class="btn btn-primary btn-lg" data-i18n="thanks_home">Back to Home</a>
+        <a href="index.html#products" class="btn btn-outline btn-lg" data-i18n="thanks_products">View Products</a>
+      </div>
+      <p class="countdown" data-i18n="thanks_redirect">You will be redirected to the homepage in <span id="timer">10</span> seconds...</p>
+    </div>
+  </section>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Auto redirect after 10 seconds
+    let seconds = 10;
+    const timer = document.getElementById('timer');
+    const interval = setInterval(() => {
+      seconds--;
+      timer.textContent = seconds;
+      if (seconds <= 0) {
+        clearInterval(interval);
+        window.location.href = 'index.html';
+      }
+    }, 1000);
+  </script>
+</body>
+</html>

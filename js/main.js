@@ -42,7 +42,7 @@ function initMobileMenu() {
   // Mobile dropdown toggle
   nav.querySelectorAll('.nav-dropdown-trigger').forEach(trigger => {
     trigger.addEventListener('click', (e) => {
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         e.preventDefault();
         trigger.closest('.nav-dropdown').classList.toggle('open');
       }

@@ -428,6 +428,26 @@ const translations = {
     apps_cta_desc: "Contact our technical team and we'll help you select the best polycarbonate product for your specific application and requirements.",
     apps_cta_contact: "Contact Us",
 
+    // Thank You Page
+    // Contact Page
+    cont_hero_title: "Contact Us",
+    cont_hero_desc: "Get in touch for product inquiries, quotes, or technical support. We're here to help with your polycarbonate needs.",
+    cont_info_title: "Get in Touch",
+    cont_info_desc: "We'd love to hear from you. Whether you need a quote, technical documentation, or have questions about our products \u2014 our team is ready to help.",
+    cont_form_title: "Send us a Message",
+    cont_form_company: "Company Name",
+    cont_form_phone: "Phone Number",
+    cont_locations_title: "Our Locations",
+    cont_loc_factory: "Production Site",
+    cont_loc_office: "Office Belgrade",
+
+    thanks_title: "Thank You!",
+    thanks_message: "Your message has been sent successfully. Our team will review your inquiry and get back to you within 24 hours.",
+    thanks_note: "If you don't receive a response, please check your spam folder or contact us directly by phone.",
+    thanks_home: "Back to Home",
+    thanks_products: "View Products",
+    thanks_redirect: "You will be redirected to the homepage in  seconds...",
+
     // Applications
     applications_title: "Applications",
     applications_subtitle: "Our polycarbonate sheets are used across a wide range of industries",
@@ -919,6 +939,26 @@ const translations = {
     apps_cta_title: "Niste sigurni koje re\u0161enje je pravo?",
     apps_cta_desc: "Kontaktirajte na\u0161 tehni\u010dki tim i pomo\u0107i \u0107emo vam da izaberete najbolji polikarbonatni proizvod za va\u0161u specifi\u010dnu aplikaciju.",
     apps_cta_contact: "Kontaktirajte nas",
+
+    // Thank You Page
+    // Contact Page
+    cont_hero_title: "Kontaktirajte nas",
+    cont_hero_desc: "Javite nam se za informacije o proizvodima, ponude ili tehni\u010dku podr\u0161ku. Tu smo da vam pomognemo.",
+    cont_info_title: "Stupite u kontakt",
+    cont_info_desc: "Rado \u0107emo vas \u010duti. Bilo da vam treba ponuda, tehni\u010dka dokumentacija ili imate pitanja o na\u0161im proizvodima \u2014 na\u0161 tim je spreman da pomogne.",
+    cont_form_title: "Po\u0161aljite nam poruku",
+    cont_form_company: "Naziv kompanije",
+    cont_form_phone: "Broj telefona",
+    cont_locations_title: "Na\u0161e lokacije",
+    cont_loc_factory: "Proizvodni pogon",
+    cont_loc_office: "Kancelarija Beograd",
+
+    thanks_title: "Hvala Vam!",
+    thanks_message: "Va\u0161a poruka je uspe\u0161no poslata. Na\u0161 tim \u0107e pregledati va\u0161 zahtev i odgovoriti vam u roku od 24 sata.",
+    thanks_note: "Ako ne dobijete odgovor, proverite spam folder ili nas kontaktirajte direktno telefonom.",
+    thanks_home: "Nazad na po\u010detnu",
+    thanks_products: "Pogledajte proizvode",
+    thanks_redirect: "Bi\u0107ete preusmereni na po\u010detnu stranicu za  sekundi...",
 
     // Applications
     applications_title: "Primene",

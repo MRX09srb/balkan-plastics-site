@@ -105,6 +105,10 @@
   }
 }
 
+.product-hero-bg-contact {
+  background: linear-gradient(135deg, #0a1e37 0%, #1a3a5c 40%, #2E7ABF 100%);
+}
+
 .product-hero-bg-signage {
   background: url('../img/29.jpg') center 27% / cover no-repeat;
 }
@@ -945,7 +949,7 @@
 /* ===== INSTALLATION ===== */
 .install-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
 
