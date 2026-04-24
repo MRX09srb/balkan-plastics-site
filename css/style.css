@@ -1261,6 +1261,7 @@ img { max-width: 100%; display: block; }
   }
 
   .mobile-menu-toggle { display: flex; z-index: 9999; }
+  .mobile-menu-toggle.active span { background: #ffffff !important; }
 
   .header-actions .btn { display: none; }
 
