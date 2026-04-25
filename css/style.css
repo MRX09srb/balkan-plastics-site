@@ -603,7 +603,7 @@ img { max-width: 100%; display: block; }
 }
 
 .product-img-solid {
-  background: url('../img/7.jpg') center center / cover no-repeat;
+  background: url('../img/solid-card.jpg') center center / cover no-repeat;
 }
 
 .product-img-accessories {
