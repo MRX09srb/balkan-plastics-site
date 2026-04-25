@@ -146,7 +146,7 @@
 }
 
 .product-hero-bg-solid {
-  background: linear-gradient(135deg, rgba(10,30,55,0.85), rgba(26,58,92,0.8)), url('../img/19.png') center 65% / cover no-repeat;
+  background: linear-gradient(135deg, rgba(10,30,55,0.85), rgba(26,58,92,0.8)), url('../img/solid-overview-3.jpg') center 65% / cover no-repeat;
 }
 
 .product-hero-bg::after {
