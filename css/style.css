@@ -599,7 +599,7 @@ img { max-width: 100%; display: block; }
 }
 
 .product-img-multiwall {
-  background: url('../img/1.jpg?v=3') center center / cover no-repeat;
+  background: url('../img/multiwall-card.jpg') center center / cover no-repeat;
 }
 
 .product-img-solid {
