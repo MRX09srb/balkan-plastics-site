@@ -168,7 +168,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initLightbox() {
-  const targets = document.querySelectorAll('.recommended-image img, .gallery-item img');
+  const targets = [...document.querySelectorAll('.gallery-item img')];
+  document.querySelectorAll('.recommended-image img').forEach(img => {
+    const card = img.closest('.recommended-card');
+    if (!card || card.tagName !== 'A') targets.push(img);
+  });
   if (!targets.length) return;
 
   const overlay = document.createElement('div');
