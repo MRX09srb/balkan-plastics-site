@@ -22,7 +22,7 @@
 }
 
 .product-hero-bg-apps {
-  background: url('../img/30.jpg') center 35% / cover no-repeat;
+  background: url('../img/76.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-apps::after {
@@ -106,11 +106,11 @@
 }
 
 .product-hero-bg-contact {
-  background: linear-gradient(135deg, #0a1e37 0%, #1a3a5c 40%, #2E7ABF 100%);
+  background: linear-gradient(135deg, rgba(10,30,55,0.85), rgba(26,58,92,0.8)), url('../img/58.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-signage {
-  background: url('../img/29.jpg') center 27% / cover no-repeat;
+  background: url('../img/72.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-signage::after {
@@ -118,7 +118,7 @@
 }
 
 .product-hero-bg-industrial {
-  background: url('../img/31.jpg') center center / cover no-repeat;
+  background: url('../img/78.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-industrial::after {
@@ -126,7 +126,7 @@
 }
 
 .product-hero-bg-agriculture {
-  background: url('../img/35.jpg') center center / cover no-repeat;
+  background: url('../img/59.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-agriculture::after {
@@ -134,7 +134,7 @@
 }
 
 .product-hero-bg-construction {
-  background: url('../img/26.jpg') center 40% / cover no-repeat;
+  background: url('../img/77.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-construction::after {
@@ -142,7 +142,7 @@
 }
 
 .product-hero-bg-profiles {
-  background: linear-gradient(135deg, rgba(10,30,55,0.85), rgba(26,58,92,0.8)), url('../img/9.jpg') center 75% / cover no-repeat;
+  background: linear-gradient(135deg, rgba(10,30,55,0.85), rgba(26,58,92,0.8)), url('../img/57.jpg') center center / cover no-repeat;
 }
 
 .product-hero-bg-solid {
@@ -969,6 +969,10 @@
   text-align: center;
   border: 1px solid var(--gray-300);
   transition: all 0.35s ease;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .install-card:hover {
@@ -1102,6 +1106,7 @@
   inset: 0;
   background: rgba(0,0,0,0);
   transition: background 0.3s;
+  pointer-events: none;
 }
 
 .gallery-item:hover::after {
