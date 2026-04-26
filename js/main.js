@@ -163,4 +163,34 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
   });
+
+  initLightbox();
 });
+
+function initLightbox() {
+  const targets = document.querySelectorAll('.overview-images-grid img, .profile-type-image img');
+  if (!targets.length) return;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'lightbox';
+  overlay.innerHTML = '<button class="lightbox-close" aria-label="Close">&times;</button><img alt="">';
+  document.body.appendChild(overlay);
+
+  const overlayImg = overlay.querySelector('img');
+  const close = () => {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  targets.forEach(img => {
+    img.addEventListener('click', () => {
+      overlayImg.src = img.currentSrc || img.src;
+      overlayImg.alt = img.alt || '';
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  overlay.addEventListener('click', close);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+}
