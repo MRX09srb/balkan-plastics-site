@@ -1362,7 +1362,6 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,0.25);
 }
 .overview-images-grid img,
-.profile-type-image img,
 .recommended-image img,
 .gallery-item img {
   cursor: zoom-in;
