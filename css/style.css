@@ -1365,3 +1365,14 @@ img { max-width: 100%; display: block; }
 div.recommended-card .recommended-image img {
   cursor: zoom-in;
 }
+
+/* ===== CONTACT FORM STATUS ===== */
+.contact-form-status {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  text-align: center;
+  min-height: 1.2em;
+}
+.contact-form-status.error {
+  color: #c83a3a;
+}
