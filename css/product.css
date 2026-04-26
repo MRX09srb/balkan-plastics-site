@@ -400,8 +400,11 @@
 /* ===== PROFILE TYPE CARDS ===== */
 .profiles-types-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: min(calc(100vw - 32px), 1500px);
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .profile-type-card {
@@ -451,7 +454,13 @@
   margin-bottom: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .profiles-types-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
   .profiles-types-grid {
     grid-template-columns: 1fr;
   }
