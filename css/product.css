@@ -641,7 +641,7 @@
   border-radius: 12px;
   border: 2px solid var(--gray-300);
   transition: all 0.35s ease;
-  max-width: 300px;
+  max-width: 380px;
 }
 
 .structure-card:hover {
@@ -665,7 +665,7 @@
 }
 
 .structure-svg-horizontal {
-  width: 250px;
+  width: 320px;
   margin: 0 auto;
 }
 
