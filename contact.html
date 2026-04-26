@@ -161,11 +161,8 @@
         <!-- Right: Form -->
         <div class="contact-page-form animate-on-scroll">
           <h3 data-i18n="cont_form_title">Send us a Message</h3>
-          <form action="https://formsubmit.co/info@plast-sheets.com" method="POST">
-            <input type="hidden" name="_subject" value="New message from Balkan Plastics website">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://balkanplastics.com/thanks.html">
-            <input type="text" name="_honey" style="display:none">
+          <form id="contact-form" action="/api/contact" method="POST">
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
             <div class="contact-form-row">
               <div class="form-group">
                 <input type="text" name="name" required data-i18n-placeholder="contact_form_name" placeholder="Your Name">
@@ -189,6 +186,7 @@
               <textarea name="message" rows="6" required data-i18n-placeholder="contact_form_message" placeholder="Your Message"></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-lg btn-full" data-i18n="contact_form_send">Send Message</button>
+            <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
 
@@ -298,7 +296,7 @@
     }
   </style>
 
-  <script src="js/contact.js"></script>
+  <script src="js/contact.js?v=2"></script>
 
   <!-- Footer -->
   <footer class="footer">
