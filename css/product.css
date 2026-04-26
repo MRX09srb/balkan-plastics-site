@@ -664,6 +664,11 @@
   margin: 0 auto;
 }
 
+.structure-svg-horizontal {
+  width: 160px;
+  margin: 0 auto;
+}
+
 .structure-info {
   text-align: center;
 }
