@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initLightbox() {
-  const targets = document.querySelectorAll('.overview-images-grid img, .profile-type-image img, .recommended-image img');
+  const targets = document.querySelectorAll('.overview-images-grid img, .profile-type-image img, .recommended-image img, .gallery-item img');
   if (!targets.length) return;
 
   const overlay = document.createElement('div');
