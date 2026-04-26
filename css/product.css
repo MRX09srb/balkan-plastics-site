@@ -669,6 +669,10 @@
   margin: 0 auto;
 }
 
+.structure-svg-horizontal svg {
+  height: 60px;
+}
+
 .structure-info {
   text-align: center;
 }
