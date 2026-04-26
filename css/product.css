@@ -641,7 +641,7 @@
   border-radius: 12px;
   border: 2px solid var(--gray-300);
   transition: all 0.35s ease;
-  max-width: 180px;
+  max-width: 380px;
 }
 
 .structure-card:hover {
@@ -662,6 +662,16 @@
 .structure-svg-vertical {
   width: 60px;
   margin: 0 auto;
+}
+
+.structure-svg-horizontal {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.structure-svg-horizontal svg {
+  height: 40px;
 }
 
 .structure-info {
@@ -1138,7 +1148,8 @@
 /* ===== PRODUCT CTA ===== */
 .product-cta {
   padding: 80px 0;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  background: linear-gradient(135deg, #0a1e37, #1a3a5c);
+  color: var(--white);
 }
 
 .product-cta-inner {
