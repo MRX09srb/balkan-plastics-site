@@ -1362,6 +1362,7 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,0.25);
 }
 .gallery-item img,
+.overview-images-grid.lightbox-on img,
 div.recommended-card .recommended-image img {
   cursor: zoom-in;
 }
