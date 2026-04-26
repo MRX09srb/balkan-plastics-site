@@ -969,6 +969,10 @@
   text-align: center;
   border: 1px solid var(--gray-300);
   transition: all 0.35s ease;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .install-card:hover {
