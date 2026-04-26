@@ -1138,7 +1138,8 @@
 /* ===== PRODUCT CTA ===== */
 .product-cta {
   padding: 80px 0;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  background: linear-gradient(135deg, #0a1e37, #1a3a5c);
+  color: var(--white);
 }
 
 .product-cta-inner {
