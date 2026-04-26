@@ -129,11 +129,6 @@ function initCounters() {
   });
 }
 
-// Contact form - handled by FormSubmit.co
-function initContactForm() {
-  // Form submission is handled by FormSubmit.co
-}
-
 // Scroll to top button
 function initScrollTop() {
   const btn = document.getElementById('scrollTop');
@@ -156,7 +151,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   initScrollAnimations();
   initCounters();
-  initContactForm();
   initScrollTop();
 
   // Language switcher
