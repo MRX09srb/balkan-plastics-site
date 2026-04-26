@@ -1363,6 +1363,7 @@ img { max-width: 100%; display: block; }
 }
 .overview-images-grid img,
 .profile-type-image img,
-.recommended-image img {
+.recommended-image img,
+.gallery-item img {
   cursor: zoom-in;
 }
