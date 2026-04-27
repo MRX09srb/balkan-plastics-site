@@ -623,7 +623,7 @@ const translations = {
     mw_ben8: "\u2713 Moderan",
     mw_ben9: "\u2713 Zvu\u010dna izolacija",
     mw_areas_title: "Sfera primene",
-    mw_area1: "\u25b6 Nadre\u0161nice",
+    mw_area1: "\u25b6 Nadstre\u0161nice",
     mw_area2: "\u25b6 Gara\u017ee",
     mw_area3: "\u25b6 Plastenici",
     mw_area4: "\u25b6 Za\u0161titne zvu\u010dne barijere na autoputevima",
