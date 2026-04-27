@@ -583,7 +583,19 @@ img { max-width: 100%; display: block; }
 }
 
 .product-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15) !important;
+  border-color: var(--primary);
   cursor: pointer;
+}
+
+.product-image img,
+.product-overview-images img,
+.overview-images-grid img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  image-rendering: auto;
+  will-change: auto;
 }
 
 .product-image {
