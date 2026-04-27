@@ -461,6 +461,10 @@ const translations = {
     thanks_products: "View Products",
     thanks_redirect: "You will be redirected to the homepage in  seconds...",
 
+    // Goals
+    goals_title: "Goals",
+    goals_desc: "Quality product, satisfied customers, short delivery times are just some of the many goals we strive for every day. Year after year, we strive to expand our assortment in accordance with the needs of our loyal customers, so that customers can meet all their needs in one place.",
+
     // Applications
     applications_title: "Applications",
     applications_subtitle: "Our polycarbonate sheets are used across a wide range of industries",
@@ -985,6 +989,10 @@ const translations = {
     thanks_home: "Nazad na po\u010detnu",
     thanks_products: "Pogledajte proizvode",
     thanks_redirect: "Bi\u0107ete preusmereni na po\u010detnu stranicu za  sekundi...",
+
+    // Goals
+    goals_title: "Ciljevi",
+    goals_desc: "Kvalitetan proizvod, zadovoljni kupci, kratki rokovi isporuke su samo neki od mnogobrojnih ciljeva ka kojima svakodnevno te\u017eimo. Iz godine u godinu se trudimo da pro\u0161irimo svoj asortiman u skladu sa potrebama na\u0161ih vernih kupaca, kako bi kupci mogli da zadovolje sve svoje potrebe na jednom mestu.",
 
     // Applications
     applications_title: "Primene",
