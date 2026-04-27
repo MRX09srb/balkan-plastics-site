@@ -614,7 +614,7 @@ const translations = {
     product_solid_f3: "Otpornost na udarce: 250x staklo",
     product_solid_f4: "UV za\u0161tita sa obe strane",
 
-    product_accessories_title: "Profili i termo-podlo\u0161ke",
+    product_accessories_title: "Profili & Termo-podlo\u0161ke",
     product_accessories_desc: "Kompletan sistem spojnih profila, termi\u010dkih podlo\u0161ki i zaptivnih elemenata za profesionalnu monta\u017eu polikarbonata. Projektovani za savr\u0161enu kompatibilnost sa na\u0161im plo\u010dama.",
     product_acc_f1: "H-profili i U-profili",
     product_acc_f2: "100% polikarbonat",
