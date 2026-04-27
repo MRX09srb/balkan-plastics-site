@@ -353,6 +353,7 @@
 }
 
 .overview-main-image:hover {
+  transform: scale(1.03);
   box-shadow: var(--shadow-lg);
 }
 
@@ -372,6 +373,7 @@
 }
 
 .overview-small-images img:hover {
+  transform: scale(1.05);
   box-shadow: var(--shadow-md);
 }
 
@@ -391,6 +393,7 @@
 }
 
 .overview-images-grid img:hover {
+  transform: scale(1.05);
   box-shadow: var(--shadow-md);
 }
 
