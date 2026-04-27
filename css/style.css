@@ -589,15 +589,6 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
 }
 
-.product-image img,
-.product-overview-images img,
-.overview-images-grid img {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  image-rendering: auto;
-  will-change: auto;
-}
-
 .product-image {
   height: 220px;
   display: flex;
@@ -605,15 +596,6 @@ img { max-width: 100%; display: block; }
   justify-content: center;
   position: relative;
   overflow: hidden;
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.product-card {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform: translateZ(0);
 }
 
 .product-img-multiwall {
