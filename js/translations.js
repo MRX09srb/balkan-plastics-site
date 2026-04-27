@@ -10,7 +10,7 @@ const translations = {
     nav_get_quote: "Get a Quote",
 
     // Hero
-    hero_title: "Premium Polycarbonate Sheets",
+    hero_title: "Premium Class Polycarbonate Sheets",
     hero_subtitle: "Manufactured in Serbia for Global Markets",
     hero_desc: "Industry-leading multiwall and solid polycarbonate sheets with superior light transmission, impact resistance, and thermal insulation.",
     hero_btn_products: "Our Products",
