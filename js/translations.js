@@ -553,7 +553,7 @@ const translations = {
 
     // Products
     products_title: "Na\u0161i proizvodi",
-    products_subtitle: "Osnovni asortiman na\u0161e kompanije jesu profili, pune i sa\u0107aste polikarbonatne plo\u010de visokog kvaliteta proizvedene u skladu sa EU standardima. Obe vrste polikarbonatnih plo\u010da imaju vrlo \u0161iroku sferu primene, koja postaje raznovrsnija iz dana u dan, zahvaljuju\u0107i vernim potro\u0161a\u010dima, koji se sve \u010de\u0161\u0107e odlu\u010duju za ovaj moderan i visokokvalitetan materijal. Za proizvodnju na\u0161ih proizvoda koristimo primarnu granulu od vode\u0107ih proizvo\u0111a\u010da sirovina - Covestro i Sabic.",
+    products_subtitle: "Profili, pune i sa\u0107aste polikarbonatne plo\u010de proizvedene po EU standardima od primarne granule Covestro i Sabic.",
 
     product_multiwall_title: "Vi\u0161eslojne polikarbonatne plo\u010de",
     product_multiwall_desc: "Lagani, ali \u010dvrsti paneli sa odli\u010dnom termalnom izolacijom. Dostupni u dvoslojnoj i vi\u0161eslojnoj konfiguraciji. Idealni za krovove, stakleni\u010dke, nadkrivanja i arhitektonsko zastakljivanje.",
