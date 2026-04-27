@@ -584,7 +584,7 @@ const translations = {
     nav_get_quote: "Zatra\u017eite ponudu",
 
     // Hero
-    hero_title: "Premium polikarbonatne plo\u010de",
+    hero_title: "Polikarbonatni listovi premium klase",
     hero_subtitle: "Proizvedeno u Srbiji za globalna tr\u017ei\u0161ta",
     hero_desc: "Vode\u0107e vi\u0161eslojne i monolitne polikarbonatne plo\u010de sa superiornom propusno\u0161\u0107u svetlosti, otporno\u0161\u0107u na udarce i termalnom izolacijom.",
     hero_btn_products: "Na\u0161i proizvodi",
