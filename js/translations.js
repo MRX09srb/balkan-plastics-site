@@ -687,7 +687,7 @@ const translations = {
     mw_install_title: "Monta\u017ea i pribor",
     mw_install_subtitle: "Profesionalna re\u0161enja za monta\u017eu za optimalne performanse",
     mw_inst1_title: "H-profili",
-    mw_inst1_desc: "Aluminijumski i polikarbonatni H-profili za spajanje plo\u010da. Dostupni za sve debljine od 4mm do 20mm.",
+    mw_inst1_desc: "Polikarbonatni H-profili za spajanje plo\u010da. Dostupni za sve debljine od 4mm do 20mm.",
     mw_inst2_title: "U-profili",
     mw_inst2_desc: "Zavr\u0161ni profili koji zatvaraju otvorene krajeve vi\u0161eslojnih plo\u010da, spre\u010davaju\u0107i ulaz vlage i pra\u0161ine u komore.",
     mw_inst3_title: "Podlo\u0161ke za fiksiranje",
