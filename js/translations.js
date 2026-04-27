@@ -713,7 +713,7 @@ const translations = {
     mw_inst1_desc: "Polikarbonatni H-profili za spajanje plo\u010da. Dostupni za sve debljine od 4mm do 20mm.",
     mw_inst2_title: "U-profili",
     mw_inst2_desc: "Zavr\u0161ni profili koji zatvaraju otvorene krajeve vi\u0161eslojnih plo\u010da, spre\u010davaju\u0107i ulaz vlage i pra\u0161ine u komore.",
-    mw_inst3_title: "Termo-podlo\u0161ke",
+    mw_inst3_title: "Podlo\u0161ke za fiksiranje",
     mw_inst3_desc: "Specijalne termi\u010dke podlo\u0161ke sa UV-otpornim zaptiva\u010dima obezbe\u0111uju vodonepropusna mesta fiksiranja.",
     mw_inst4_title: "Zaptivne trake",
     mw_inst4_desc: "Traka protiv pra\u0161ine za donju ivicu i ventilaciona traka za gornju ivicu. Neophodne za dugoro\u010dnu bisrtinu i performanse.",
