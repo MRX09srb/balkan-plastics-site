@@ -600,7 +600,7 @@ const translations = {
     products_title: "Na\u0161i proizvodi",
     products_subtitle: "Kompletan asortiman polikarbonatnih re\u0161enja za gra\u0111evinarstvo, poljoprivredu i industriju",
 
-    product_multiwall_title: "Vi\u0161eslojne polikarbonatne plo\u010de",
+    product_multiwall_title: "Sa\u0107aste plo\u010de",
     product_multiwall_desc: "Lagani, ali \u010dvrsti paneli sa odli\u010dnom termalnom izolacijom. Dostupni u dvoslojnoj i vi\u0161eslojnoj konfiguraciji. Idealni za krovove, stakleni\u010dke, nadkrivanja i arhitektonsko zastakljivanje.",
     product_multiwall_f1: "Debljina: 4mm \u2013 20mm",
     product_multiwall_f2: "Propustljivost svetlosti do 82%",
