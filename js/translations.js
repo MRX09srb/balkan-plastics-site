@@ -490,7 +490,7 @@ const translations = {
     // Contact Page
     cont_hero_title: "Contact Us",
     cont_hero_desc: "Get in touch for product inquiries, quotes, or technical support. We're here to help with your polycarbonate needs.",
-    cont_info_title: "Get in Touch",
+    cont_info_title: "Our Contacts",
     cont_info_desc: "We'd love to hear from you. Whether you need a quote, technical documentation, or have questions about our products \u2014 our team is ready to help.",
     cont_form_title: "Send us a Message",
     cont_form_company: "Company Name",
@@ -1064,7 +1064,7 @@ const translations = {
     // Contact Page
     cont_hero_title: "Kontaktirajte nas",
     cont_hero_desc: "Javite nam se za informacije o proizvodima, ponude ili tehni\u010dku podr\u0161ku. Tu smo da vam pomognemo.",
-    cont_info_title: "Stupite u kontakt",
+    cont_info_title: "Naši kontakti",
     cont_info_desc: "Rado \u0107emo vas \u010duti. Bilo da vam treba ponuda, tehni\u010dka dokumentacija ili imate pitanja o na\u0161im proizvodima \u2014 na\u0161 tim je spreman da pomogne.",
     cont_form_title: "Po\u0161aljite nam poruku",
     cont_form_company: "Naziv kompanije",
