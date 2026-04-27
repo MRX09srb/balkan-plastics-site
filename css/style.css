@@ -605,6 +605,15 @@ img { max-width: 100%; display: block; }
   justify-content: center;
   position: relative;
   overflow: hidden;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.product-card {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .product-img-multiwall {
