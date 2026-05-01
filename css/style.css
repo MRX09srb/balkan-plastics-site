@@ -123,41 +123,50 @@ img { max-width: 100%; display: block; }
   left: 0;
   right: 0;
   z-index: 1000;
-  background: transparent;
-  backdrop-filter: none;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(12px);
   transition: background var(--transition), backdrop-filter var(--transition), border-color var(--transition), box-shadow var(--transition);
   border-bottom: 1px solid transparent;
 }
 
 .header.scrolled {
   background: rgba(255,255,255,0.98);
-  backdrop-filter: blur(12px);
   border-bottom-color: var(--gray-300);
   box-shadow: var(--shadow-sm);
 }
 
-/* Header transparent over hero — adapt child elements for dark photo */
-.header:not(.scrolled) .nav-links a {
+/* Home page only — transparent header so hero photo extends behind nav */
+.page-home .header {
+  background: transparent;
+  backdrop-filter: none;
+}
+
+.page-home .header.scrolled {
+  background: rgba(255,255,255,0.98);
+  backdrop-filter: blur(12px);
+}
+
+.page-home .header:not(.scrolled) .nav-links a {
   color: #fff;
   text-shadow: 0 1px 6px rgba(0,0,0,0.55);
 }
-.header:not(.scrolled) .lang-btn {
+.page-home .header:not(.scrolled) .lang-btn {
   background: rgba(255,255,255,0.12);
   color: #fff;
   border: 1px solid rgba(255,255,255,0.35);
 }
-.header:not(.scrolled) .lang-btn.active {
+.page-home .header:not(.scrolled) .lang-btn.active {
   background: var(--primary);
   color: #fff;
   border-color: var(--primary);
 }
-.header:not(.scrolled) .lang-btn:hover:not(.active) {
+.page-home .header:not(.scrolled) .lang-btn:hover:not(.active) {
   background: rgba(255,255,255,0.22);
 }
-.header:not(.scrolled) .header-logo-img {
+.page-home .header:not(.scrolled) .header-logo-img {
   filter: drop-shadow(0 2px 10px rgba(0,0,0,0.55));
 }
-.header:not(.scrolled) .mobile-menu-toggle span {
+.page-home .header:not(.scrolled) .mobile-menu-toggle span {
   background: #fff;
 }
 
@@ -166,6 +175,9 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   height: 90px;
+}
+
+.page-home .header-inner {
   max-width: none;
   margin: 0;
   padding-left: 64px;
