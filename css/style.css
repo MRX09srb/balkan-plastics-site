@@ -146,7 +146,8 @@ img { max-width: 100%; display: block; }
   backdrop-filter: blur(12px);
 }
 
-.page-home .header:not(.scrolled) .nav-links a {
+.page-home .header:not(.scrolled) .nav-links > a,
+.page-home .header:not(.scrolled) .nav-links > .nav-dropdown > a {
   color: #fff;
   text-shadow: 0 1px 6px rgba(0,0,0,0.55);
 }
