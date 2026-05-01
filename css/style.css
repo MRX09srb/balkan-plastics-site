@@ -356,7 +356,7 @@ img { max-width: 100%; display: block; }
 /* ===== HERO ===== */
 .hero {
   position: relative;
-  min-height: calc(100vh - 89px);
+  min-height: 100vh;
   display: flex;
   align-items: center;
   overflow: hidden;
