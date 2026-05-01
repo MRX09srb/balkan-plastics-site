@@ -383,13 +383,16 @@ img { max-width: 100%; display: block; }
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: var(--bg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
   will-change: opacity, transform;
 }
+
+.hero-slide-a .hero-strip { background-image: url('../img/hero-2.jpg'); }
+.hero-slide-b .hero-strip { background-image: url('../img/hero-3.jpg'); }
+.hero-slide-c .hero-strip { background-image: url('../img/hero-4.jpg'); }
 
 .hero-strip:nth-child(1) {
   clip-path: inset(0 75% 0 0);
