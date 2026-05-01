@@ -360,7 +360,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: url('../img/hero-2.jpg') center center / cover no-repeat;
+  background: url('../img/hero-2.jpg?q=95') center center / cover no-repeat;
 }
 
 .hero-bg {
@@ -390,10 +390,10 @@ img { max-width: 100%; display: block; }
   will-change: opacity, transform;
 }
 
-.hero-slide-a .hero-strip { background-image: url('../img/hero-2.jpg'); }
-.hero-slide-b .hero-strip { background-image: url('../img/hero-3.jpg'); }
-.hero-slide-c .hero-strip { background-image: url('../img/hero-4.jpg'); }
-.hero-slide-d .hero-strip { background-image: url('../img/hero-5.jpg'); }
+.hero-slide-a .hero-strip { background-image: url('../img/hero-2.jpg?q=95'); }
+.hero-slide-b .hero-strip { background-image: url('../img/hero-3.jpg?q=95'); }
+.hero-slide-c .hero-strip { background-image: url('../img/hero-4.jpg?q=95'); }
+.hero-slide-d .hero-strip { background-image: url('../img/hero-5.jpg?q=95'); }
 
 .hero-strip:nth-child(1) {
   clip-path: inset(0 75% 0 0);
