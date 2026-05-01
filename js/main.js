@@ -22,6 +22,14 @@ function setLanguage(lang) {
     }
   });
 
+  // Update aria-label
+  document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+    const key = el.getAttribute('data-i18n-aria');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('aria-label', translations[lang][key]);
+    }
+  });
+
   // Update language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
@@ -63,13 +71,16 @@ function initMobileMenu() {
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
+      const href = anchor.getAttribute('href');
+      if (!href || href === '#') return;
+      let target;
+      try { target = document.querySelector(href); } catch (_) { return; }
+      if (!target) return;
       e.preventDefault();
-      const target = document.querySelector(anchor.getAttribute('href'));
-      if (target) {
-        const headerHeight = document.querySelector('.header').offsetHeight;
-        const top = target.offsetTop - headerHeight;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
+      const header = document.querySelector('.header');
+      const headerHeight = header ? header.offsetHeight : 0;
+      const top = target.offsetTop - headerHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
     });
   });
 }
@@ -79,9 +90,16 @@ function initHeaderScroll() {
   const header = document.querySelector('.header');
   if (!header) return;
 
+  let ticking = false;
   window.addEventListener('scroll', () => {
-    header.classList.toggle('scrolled', window.scrollY > 50);
-  });
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
 }
 
 // Scroll animations
@@ -114,7 +132,7 @@ function initCounters() {
           const elapsed = now - start;
           const progress = Math.min(elapsed / duration, 1);
           const eased = 1 - Math.pow(1 - progress, 3);
-          counter.textContent = Math.round(target * eased).toLocaleString();
+          counter.textContent = Math.round(target * eased).toLocaleString(currentLang === 'sr' ? 'sr-Latn' : 'en-US');
           if (progress < 1) requestAnimationFrame(update);
         }
 
@@ -134,9 +152,16 @@ function initScrollTop() {
   const btn = document.getElementById('scrollTop');
   if (!btn) return;
 
+  let ticking = false;
   window.addEventListener('scroll', () => {
-    btn.classList.toggle('visible', window.scrollY > 400);
-  });
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        btn.classList.toggle('visible', window.scrollY > 400);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
 
   btn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });

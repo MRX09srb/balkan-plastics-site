@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,11 +8,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thank You - Balkan Plastics Company</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/style.css?v=44">
+  <link rel="stylesheet" href="css/product.css?v=13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <style>
     .thanks-section {
       min-height: 100vh;
@@ -107,7 +107,7 @@
         <a href="index.html#quality" data-i18n="nav_quality">Quality</a>
         <a href="contact.html" data-i18n="nav_contact">Contact</a>
         <div class="mobile-nav-contact">
-          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg><span>Magnetna polja BB, Subotica, Serbia</span></div>
+          <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="contact_address_val">Magnetna polja BB, Subotica, Serbia</span></div>
           <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/></svg><span>info@balkanplastics.com</span></div>
           <div class="mnc-item"><svg viewBox="0 0 24 24" fill="none" width="16" height="16"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="contact_hours_val">Mon - Fri: 08:00 - 16:00</span></div>
         </div>
@@ -117,7 +117,7 @@
           <button class="lang-btn active" data-lang="en">EN</button>
           <button class="lang-btn" data-lang="sr">SR</button>
         </div>
-        <button class="mobile-menu-toggle" aria-label="Menu">
+        <button class="mobile-menu-toggle" aria-label="Menu" data-i18n-aria="aria_menu">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -137,12 +137,16 @@
         <a href="index.html" class="btn btn-primary btn-lg" data-i18n="thanks_home">Back to Home</a>
         <a href="index.html#products" class="btn btn-outline btn-lg" data-i18n="thanks_products">View Products</a>
       </div>
-      <p class="countdown" data-i18n="thanks_redirect">You will be redirected to the homepage in <span id="timer">10</span> seconds...</p>
+      <p class="countdown">
+        <span data-i18n="thanks_redirect_before">You will be redirected to the homepage in</span>
+        <span id="timer">10</span>
+        <span data-i18n="thanks_redirect_after">seconds...</span>
+      </p>
     </div>
   </section>
 
-  <script src="js/translations.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/translations.js?v=44"></script>
+  <script src="js/main.js?v=44"></script>
   <script src="js/thanks.js"></script>
 </body>
 </html>
