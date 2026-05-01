@@ -40,7 +40,7 @@ const translations = {
     product_solid_f3: "Impact resistance: 250x glass",
     product_solid_f4: "UV protection on both sides",
 
-    product_accessories_title: "Profiles & Thermo-washers",
+    product_accessories_title: "Profiles & Thermal Washers",
     product_accessories_desc: "Complete system of connection profiles, thermo-washers, and sealing accessories for professional polycarbonate installation. Engineered for perfect compatibility with our sheets.",
     product_acc_f1: "H-profiles and U-profiles",
     product_acc_f2: "Made from 100% polycarbonate",
@@ -602,7 +602,7 @@ const translations = {
     products_title: "Naši proizvodi",
     products_subtitle: "Kompletan asortiman polikarbonatnih rešenja za građevinarstvo, poljoprivredu i industriju",
 
-    product_multiwall_title: "Višeslojne ploče",
+    product_multiwall_title: "Višeslojne polikarbonatne ploče",
     product_multiwall_desc: "Lagani, ali čvrsti paneli sa odličnom termoizolacijom. Dostupni u dvoslojnoj i višeslojnoj konfiguraciji. Idealni za krovove, staklenike, nadkrivanja i arhitektonsko zastakljivanje.",
     product_multiwall_f1: "Debljina: 4mm – 20mm",
     product_multiwall_f2: "Propustljivost svetlosti do 82%",
@@ -616,7 +616,7 @@ const translations = {
     product_solid_f3: "Otpornost na udarce: 250x staklo",
     product_solid_f4: "UV zaštita sa obe strane",
 
-    product_accessories_title: "Profili & Termo-podloške",
+    product_accessories_title: "Profili & Termopodloške",
     product_accessories_desc: "Kompletan sistem spojnih profila, termičkih podloški i zaptivnih elemenata za profesionalnu montažu polikarbonata. Projektovani za savršenu kompatibilnost sa našim pločama.",
     product_acc_f1: "H-profili i U-profili",
     product_acc_f2: "100% polikarbonat",
