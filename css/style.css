@@ -1142,9 +1142,7 @@ img { max-width: 100%; display: block; }
   .contact-grid { grid-template-columns: 1fr; }
 
   .footer-grid { grid-template-columns: repeat(2, 1fr); }
-}
 
-@media (max-width: 1024px) {
   .nav-links {
     display: flex;
     position: fixed;

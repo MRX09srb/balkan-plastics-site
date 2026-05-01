@@ -8,6 +8,7 @@ const translations = {
     nav_contact: "Contact",
     nav_applications: "Applications",
     nav_get_quote: "Get a Quote",
+    aria_menu: "Open menu",
 
     // Hero
     hero_title: "Polycarbonate Sheets",
@@ -584,6 +585,7 @@ const translations = {
     nav_contact: "Kontakt",
     nav_applications: "Primene",
     nav_get_quote: "Zatražite ponudu",
+    aria_menu: "Otvori meni",
 
     // Hero
     hero_title: "Polikarbonatne ploče",

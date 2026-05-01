@@ -22,6 +22,14 @@ function setLanguage(lang) {
     }
   });
 
+  // Update aria-label
+  document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+    const key = el.getAttribute('data-i18n-aria');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('aria-label', translations[lang][key]);
+    }
+  });
+
   // Update language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);

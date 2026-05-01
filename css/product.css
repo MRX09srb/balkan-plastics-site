@@ -72,9 +72,11 @@
 
 .app-overview-content {
   padding: 28px;
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 16px;
+  row-gap: 4px;
+  align-items: start;
 }
 
 .app-overview-icon {
@@ -82,14 +84,20 @@
   height: 40px;
   min-width: 40px;
   color: var(--primary);
+  grid-column: 1;
+  grid-row: 1 / span 2;
 }
 
 .app-overview-content h3 {
+  grid-column: 2;
+  grid-row: 1;
   font-size: 1.2rem;
   margin-bottom: 8px;
 }
 
 .app-overview-content p {
+  grid-column: 2;
+  grid-row: 2;
   font-size: 0.88rem;
   color: var(--gray-500);
   line-height: 1.7;
