@@ -114,7 +114,7 @@ function initCounters() {
           const elapsed = now - start;
           const progress = Math.min(elapsed / duration, 1);
           const eased = 1 - Math.pow(1 - progress, 3);
-          counter.textContent = Math.round(target * eased).toLocaleString();
+          counter.textContent = Math.round(target * eased).toLocaleString(currentLang === 'sr' ? 'sr-Latn' : 'en-US');
           if (progress < 1) requestAnimationFrame(update);
         }
 
