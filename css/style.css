@@ -166,12 +166,16 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   height: 90px;
+  max-width: none;
+  margin: 0;
+  padding-left: 64px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
 .logo-img {
@@ -182,7 +186,22 @@ img { max-width: 100%; display: block; }
   height: 90px;
   width: auto;
   padding: 4px 0;
+  transition: opacity var(--transition);
 }
+
+.header-logo-light {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.header-logo-dark {
+  opacity: 0;
+}
+
+.header.scrolled .header-logo-light { opacity: 0; }
+.header.scrolled .header-logo-dark { opacity: 1; }
 
 .footer-logo {
   margin-bottom: 16px;
