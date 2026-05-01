@@ -504,7 +504,8 @@ const translations = {
     thanks_note: "If you don't receive a response, please check your spam folder or contact us directly by phone.",
     thanks_home: "Back to Home",
     thanks_products: "View Products",
-    thanks_redirect: "You will be redirected to the homepage in  seconds...",
+    thanks_redirect_before: "You will be redirected to the homepage in",
+    thanks_redirect_after: "seconds...",
 
     // Goals
     goals_title: "Goals",
@@ -1078,7 +1079,8 @@ const translations = {
     thanks_note: "Ako ne dobijete odgovor, proverite spam folder ili nas kontaktirajte direktno telefonom.",
     thanks_home: "Nazad na po\u010detnu",
     thanks_products: "Pogledajte proizvode",
-    thanks_redirect: "Bi\u0107ete preusmereni na po\u010detnu stranicu za  sekundi...",
+    thanks_redirect_before: "Bi\u0107ete preusmereni na po\u010detnu stranicu za",
+    thanks_redirect_after: "sekundi...",
 
     // Goals
     goals_title: "Ciljevi",
