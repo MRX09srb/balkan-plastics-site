@@ -871,7 +871,7 @@ const translations = {
 
     // Construction & Architecture Page
     con_badge: "Primene",
-    con_hero_title: "Građevinarstvo i arhitektura",
+    con_hero_title: "Građevina i arhitektura",
     con_hero_desc: "Polikarbonatna rešenja koja kombinuju prirodno osvetljenje sa superiornim termičkim performansama, otpornošću na udarce i modernom estetikom za svaki građevinski projekat.",
     con_intro_title: "Polikarbonat u građevinarstvu",
     con_intro_p1: "Prirodno dnevno osvetljenje poboljšava dobrobit, povećava produktivnost i smanjuje troškove energije. Naše polikarbonatne ploče pružaju savršenu ravnotežu propustljivosti svetlosti, termoizolacije i strukturne čvrstoće.",
@@ -1090,7 +1090,7 @@ const translations = {
     // Applications
     applications_title: "Primene",
     applications_subtitle: "Naše polikarbonatne ploče se koriste u širokom spektru industrija",
-    app_construction: "Građevinarstvo i arhitektura",
+    app_construction: "Građevina i arhitektura",
     app_construction_desc: "Krovovi, fasade, svetlarnici, nadkrivanja i unutrašnje pregrade",
     app_agriculture: "Poljoprivreda i staklenici",
     app_agriculture_desc: "Pokrivanje staklenika, zaklon za stoku i konstrukcije za navodnjavanje",
