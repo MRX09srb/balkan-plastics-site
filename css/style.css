@@ -453,7 +453,15 @@ img { max-width: 100%; display: block; }
 .hero-slide-d .hero-strip { background-image: url('../img/hero-5.jpg?q=100'); }
 
 @media (max-width: 768px) {
-  .hero { background-image: url('../img/hero-2-m.jpg'); }
+  .hero {
+    background-image: url('../img/hero-2-m.jpg');
+    min-height: 125vw;
+  }
+  .hero::before { height: 120px; }
+  .hero-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .hero-slide-a .hero-strip { background-image: url('../img/hero-2-m.jpg'); }
   .hero-slide-b .hero-strip { background-image: url('../img/hero-3-m.jpg'); }
   .hero-slide-c .hero-strip { background-image: url('../img/hero-4-m.jpg'); }
