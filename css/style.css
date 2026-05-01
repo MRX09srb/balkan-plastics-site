@@ -452,6 +452,14 @@ img { max-width: 100%; display: block; }
 .hero-slide-c .hero-strip { background-image: url('../img/hero-4.jpg?q=100'); }
 .hero-slide-d .hero-strip { background-image: url('../img/hero-5.jpg?q=100'); }
 
+@media (max-width: 768px) {
+  .hero { background-image: url('../img/hero-2-m.jpg'); }
+  .hero-slide-a .hero-strip { background-image: url('../img/hero-2-m.jpg'); }
+  .hero-slide-b .hero-strip { background-image: url('../img/hero-3-m.jpg'); }
+  .hero-slide-c .hero-strip { background-image: url('../img/hero-4-m.jpg'); }
+  .hero-slide-d .hero-strip { background-image: url('../img/hero-5-m.jpg'); }
+}
+
 .hero-strip:nth-child(1) {
   clip-path: inset(0 75% 0 0);
   animation: heroStripDown 18s infinite cubic-bezier(0.65, 0, 0.35, 1);
