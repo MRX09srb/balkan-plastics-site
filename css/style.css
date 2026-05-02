@@ -1129,12 +1129,12 @@ img { max-width: 100%; display: block; }
   .hero-content {
     grid-template-columns: 1fr;
     text-align: left;
-    margin-left: 16px;
+    margin-left: 0;
     max-width: 100%;
     align-items: flex-start;
   }
 
-  .page-home .header-inner { padding-left: 40px; }
+  .page-home .header-inner { padding-left: 32px; }
 
   .hero-desc { margin: 0 0 32px; }
   .hero-buttons { justify-content: flex-start; }
