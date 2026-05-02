@@ -450,7 +450,12 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0;
   pointer-events: none;
+  animation: heroSlideZoom 13.5s infinite linear;
 }
+
+.hero-slide:nth-child(1) { animation-delay: -0.775s; }
+.hero-slide:nth-child(2) { animation-delay: 3.725s; }
+.hero-slide:nth-child(3) { animation-delay: 8.225s; }
 
 .hero-strip {
   position: absolute;
@@ -517,19 +522,27 @@ img { max-width: 100%; display: block; }
 .hero-slide:nth-child(3) .hero-strip:nth-child(4) { animation-delay: 8.45s; }
 
 @keyframes heroStripDown {
-  0%     { opacity: 0; transform: translateY(40px) scale(1); }
-  3.7%   { opacity: 1; transform: translateY(0) scale(1); }
-  33.33% { opacity: 1; transform: translateY(0) scale(1.08); }
-  37.04% { opacity: 0; transform: translateY(40px) scale(1.08); }
-  100%   { opacity: 0; transform: translateY(40px) scale(1); }
+  0%     { opacity: 0; transform: translateY(40px); }
+  3.7%   { opacity: 1; transform: translateY(0); }
+  33.33% { opacity: 1; transform: translateY(0); }
+  37.04% { opacity: 0; transform: translateY(40px); }
+  100%   { opacity: 0; transform: translateY(40px); }
 }
 
 @keyframes heroStripUp {
-  0%     { opacity: 0; transform: translateY(-40px) scale(1); }
-  3.7%   { opacity: 1; transform: translateY(0) scale(1); }
-  33.33% { opacity: 1; transform: translateY(0) scale(1.08); }
-  37.04% { opacity: 0; transform: translateY(-40px) scale(1.08); }
-  100%   { opacity: 0; transform: translateY(-40px) scale(1); }
+  0%     { opacity: 0; transform: translateY(-40px); }
+  3.7%   { opacity: 1; transform: translateY(0); }
+  33.33% { opacity: 1; transform: translateY(0); }
+  37.04% { opacity: 0; transform: translateY(-40px); }
+  100%   { opacity: 0; transform: translateY(-40px); }
+}
+
+@keyframes heroSlideZoom {
+  0%     { transform: scale(1); }
+  3.7%   { transform: scale(1); }
+  33.33% { transform: scale(1.08); }
+  37.04% { transform: scale(1.08); }
+  100%   { transform: scale(1); }
 }
 
 @media (prefers-reduced-motion: reduce) {
