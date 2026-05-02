@@ -477,7 +477,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 768px) {
   .hero {
     background-image: url('../img/hero-2-m.jpg');
-    min-height: 125vw;
+    min-height: 100vh;
   }
   .hero::before { height: 120px; }
   .hero-content {
