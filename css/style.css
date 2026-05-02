@@ -1132,6 +1132,7 @@ img { max-width: 100%; display: block; }
     margin-left: 0;
     max-width: 100%;
     align-items: flex-start;
+    padding-left: 20px;
   }
 
   .page-home .header-inner { padding-left: 32px; }
