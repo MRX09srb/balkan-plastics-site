@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us - Balkan Plastics Company</title>
   <meta name="description" content="Contact Balkan Plastics Company. Get a quote, technical support, or product information. Located in Subotica, Serbia.">
-  <link rel="stylesheet" href="css/style.css?v=54">
+  <link rel="stylesheet" href="css/style.css?v=55">
   <link rel="stylesheet" href="css/product.css?v=13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <style>
     .contact-page { padding: 80px 0; background: var(--gray-100); }
     .contact-page-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
@@ -185,6 +186,7 @@
             <div class="form-group">
               <textarea name="message" rows="6" required data-i18n-placeholder="contact_form_message" placeholder="Your Message"></textarea>
             </div>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAADHu5UcqwsQDEhbf" data-theme="light"></div>
             <button type="submit" class="btn btn-primary btn-lg btn-full" data-i18n="contact_form_send">Send Message</button>
             <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite"></p>
           </form>
@@ -343,7 +345,7 @@
     <svg viewBox="0 0 24 24" fill="none"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
 
-  <script src="js/translations.js?v=54"></script>
-  <script src="js/main.js?v=54"></script>
+  <script src="js/translations.js?v=55"></script>
+  <script src="js/main.js?v=55"></script>
 </body>
 </html>
