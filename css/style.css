@@ -487,6 +487,7 @@ img { max-width: 100%; display: block; }
   .hero-slide-a .hero-strip { background-image: url('../img/hero-2-m.jpg'); }
   .hero-slide-b .hero-strip { background-image: url('../img/hero-3-m.jpg'); }
   .hero-slide-d .hero-strip { background-image: url('../img/hero-5-m.jpg'); }
+  .page-home .header-inner { padding-left: 24px; }
 }
 
 .hero-strip:nth-child(1) {
