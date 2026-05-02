@@ -1037,35 +1037,6 @@ img { max-width: 100%; display: block; }
   margin-bottom: 6px;
 }
 
-.footer-social {
-  display: flex;
-  gap: 12px;
-  margin-top: 16px;
-}
-
-.footer-social a {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(255,255,255,0.85);
-  transition: all var(--transition);
-}
-
-.footer-social a svg {
-  width: 18px;
-  height: 18px;
-}
-
-.footer-social a:hover {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: var(--white);
-}
-
 .footer-bottom {
   display: flex;
   justify-content: space-between;
