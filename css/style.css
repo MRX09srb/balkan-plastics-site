@@ -186,7 +186,7 @@ img { max-width: 100%; display: block; }
 .page-home .header-inner {
   max-width: none;
   margin: 0;
-  padding-left: 64px;
+  padding-left: 90px;
 }
 
 .logo {
@@ -602,7 +602,7 @@ img { max-width: 100%; display: block; }
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 600px;
-  margin-left: 40px;
+  margin-left: 66px;
 }
 
 .hero-text { color: var(--white); }
