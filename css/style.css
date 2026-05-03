@@ -728,7 +728,8 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
 }
 
-.product-card:hover {
+.product-card:hover,
+.product-card.animate-on-scroll.animate-in:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0,0,0,0.15);
   border-color: var(--primary);
@@ -749,7 +750,7 @@ img { max-width: 100%; display: block; }
 }
 
 .product-img-solid {
-  background: url('../img/42.jpg') center center / cover no-repeat;
+  background: url('../img/42.jpg?v=2') center center / cover no-repeat;
 }
 
 .product-img-accessories {
