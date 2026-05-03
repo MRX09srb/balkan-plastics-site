@@ -601,12 +601,11 @@ img { max-width: 100%; display: block; }
   text-align: left;
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 600px;
+  margin-left: 66px;
 }
 
-.hero-text {
-  color: var(--white);
-  max-width: 600px;
-}
+.hero-text { color: var(--white); }
 
 .hero-badge {
   display: inline-block;
