@@ -40,6 +40,10 @@
       .contact-form-row { grid-template-columns: 1fr; }
       .map-container { height: 300px; }
     }
+    @media (max-width: 600px) {
+      .contact-page-form { padding: 24px 20px; }
+      .cf-turnstile { min-width: 0; max-width: 100%; overflow: hidden; }
+    }
   </style>
 </head>
 <body>
@@ -177,7 +181,7 @@
             <div class="form-group">
               <textarea name="message" rows="6" required data-i18n-placeholder="contact_form_message" placeholder="Your Message"></textarea>
             </div>
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAADHu5UcqwsQDEhbf" data-theme="light"></div>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAADHu5UcqwsQDEhbf" data-theme="light" data-size="flexible"></div>
             <button type="submit" class="btn btn-primary btn-lg btn-full" data-i18n="contact_form_send">Send Message</button>
             <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite"></p>
           </form>
