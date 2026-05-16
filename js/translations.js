@@ -536,7 +536,7 @@ const translations = {
     about_item2_title: "Quality Certified",
     about_item2_desc: "ISO 9001, ISO 45001 & ISO 18001 certified production",
     about_item3_title: "Expert Team",
-    about_item3_desc: "Experienced engineers and technicians with decades of industry expertise",
+    about_item3_desc: "Experienced engineers and technologists with years of expertise",
 
     // Quality
     quality_title: "Quality & Certifications",
@@ -1112,7 +1112,7 @@ const translations = {
     about_item2_title: "Sertifikovan kvalitet",
     about_item2_desc: "ISO 9001, ISO 45001 i ISO 18001 sertifikovana proizvodnja",
     about_item3_title: "Stručni tim",
-    about_item3_desc: "Iskusni inženjeri i tehničari sa decenijama industrijskog iskustva",
+    about_item3_desc: "Iskusni inženjeri i tehnolozi sa višegodišnjim iskustvom",
 
     // Quality
     quality_title: "Kvalitet i sertifikati",
