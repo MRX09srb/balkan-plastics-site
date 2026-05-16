@@ -42,7 +42,7 @@ const translations = {
     product_solid_f4: "UV protection on both sides",
 
     product_accessories_title: "Profiles & Thermal Washers",
-    product_accessories_desc: "Complete system of connection profiles, thermo-washers, and sealing accessories for professional polycarbonate installation. Engineered for perfect compatibility with our sheets.",
+    product_accessories_desc: "Profiles and thermo-washers are also an integral part of our range.",
     product_acc_f1: "H-profiles and U-profiles",
     product_acc_f2: "Made from 100% polycarbonate",
     product_acc_f3: "Thermo-washers",
@@ -619,7 +619,7 @@ const translations = {
     product_solid_f4: "UV zaštita sa obe strane",
 
     product_accessories_title: "Profili & Termopodloške",
-    product_accessories_desc: "Kompletan sistem spojnih profila, termičkih podloški i zaptivnih elemenata za profesionalnu montažu polikarbonata. Projektovani za savršenu kompatibilnost sa našim pločama.",
+    product_accessories_desc: "Profili I termopodloške su takođe sastavni deo našeg asortimana.",
     product_acc_f1: "H-profili i U-profili",
     product_acc_f2: "100% polikarbonat",
     product_acc_f3: "Termopodloške",
