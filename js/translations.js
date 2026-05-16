@@ -11,9 +11,9 @@ const translations = {
     aria_menu: "Open menu",
 
     // Hero
-    hero_title: "Polycarbonate Sheets",
-    hero_subtitle: "Manufactured in Serbia for Global Markets",
-    hero_desc: "High-performance multiwall and solid polycarbonate sheets with superior light transmission, impact resistance, and thermal insulation.",
+    hero_title: "High-Quality Polycarbonate Sheets",
+    hero_subtitle: "",
+    hero_desc: "",
     hero_btn_products: "Our Products",
     hero_btn_contact: "Contact Us",
 
