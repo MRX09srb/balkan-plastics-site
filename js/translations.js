@@ -28,7 +28,7 @@ const translations = {
     products_subtitle: "Complete range of polycarbonate solutions for construction, agriculture, and industrial applications",
 
     product_multiwall_title: "Multiwall Polycarbonate Sheets",
-    product_multiwall_desc: "Lightweight yet strong panels with excellent thermal insulation. Available in twin-wall and multi-layer configurations. Perfect for roofing, greenhouses, canopies, and architectural glazing.",
+    product_multiwall_desc: "Lightweight and strong panels with exceptional thermal insulation. Our range includes twin-wall sheets and sheets with X-structure. This material is the ideal solution for greenhouses, canopies, partition walls, etc.",
     product_multiwall_f1: "Thickness: 4mm – 20mm",
     product_multiwall_f2: "Light transmission up to 82%",
     product_multiwall_f3: "Thermal insulation up to U=1.0 W/m²K",
@@ -605,7 +605,7 @@ const translations = {
     products_subtitle: "Kompletan asortiman polikarbonatnih rešenja za građevinarstvo, poljoprivredu i industriju",
 
     product_multiwall_title: "Višeslojne polikarbonatne ploče",
-    product_multiwall_desc: "Lagani, ali čvrsti paneli sa odličnom termoizolacijom. Dostupni u dvoslojnoj i višeslojnoj konfiguraciji. Idealni za krovove, staklenike, nadkrivanja i arhitektonsko zastakljivanje.",
+    product_multiwall_desc: "Lagani I čvrsti paneli sa izvanrednom termoizolacijom. U ponudi imamo dvoslojne ploče I ploče sa x strukturom. Ovaj materijal je idealno rešenje za plastenike, nadstrešnice, pregradne zidove itd.",
     product_multiwall_f1: "Debljina: 4mm – 20mm",
     product_multiwall_f2: "Propustljivost svetlosti do 82%",
     product_multiwall_f3: "Termoizolacija do U=1.0 W/m²K",
