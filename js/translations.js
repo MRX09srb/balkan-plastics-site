@@ -546,7 +546,7 @@ const translations = {
     quality_ce: "CE Marking",
     quality_ce_desc: "European Conformity Standards",
     quality_uv: "UV Protection",
-    quality_uv_desc: "10-Year UV Warranty",
+    quality_uv_desc: "",
     quality_fire: "Fire Rated",
     quality_fire_desc: "B-s1,d0 Classification",
 
@@ -1122,7 +1122,7 @@ const translations = {
     quality_ce: "CE oznaka",
     quality_ce_desc: "Evropski standardi usaglašenosti",
     quality_uv: "UV zaštita",
-    quality_uv_desc: "10-godišnja UV garancija",
+    quality_uv_desc: "",
     quality_fire: "Vatrootpornost",
     quality_fire_desc: "B-s1,d0 klasifikacija",
 
