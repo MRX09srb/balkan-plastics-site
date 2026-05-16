@@ -542,13 +542,13 @@ const translations = {
     quality_title: "Quality & Certifications",
     quality_subtitle: "Our commitment to quality is backed by international certifications and rigorous testing protocols",
     quality_iso: "ISO 9001:2015",
-    quality_iso_desc: "Quality Management System",
+    quality_iso_desc: "",
     quality_ce: "CE Marking",
-    quality_ce_desc: "European Conformity Standards",
+    quality_ce_desc: "",
     quality_uv: "UV Protection",
     quality_uv_desc: "",
     quality_fire: "Fire Rated",
-    quality_fire_desc: "B-s1,d0 Classification",
+    quality_fire_desc: "",
 
     // Contact
     contact_title: "Contact Us",
@@ -1118,13 +1118,13 @@ const translations = {
     quality_title: "Kvalitet i sertifikati",
     quality_subtitle: "Naša posvećenost kvalitetu podržana je međunarodnim sertifikatima i rigoroznim protokolima testiranja",
     quality_iso: "ISO 9001:2015",
-    quality_iso_desc: "Sistem upravljanja kvalitetom",
+    quality_iso_desc: "",
     quality_ce: "CE oznaka",
-    quality_ce_desc: "Evropski standardi usaglašenosti",
+    quality_ce_desc: "",
     quality_uv: "UV zaštita",
     quality_uv_desc: "",
     quality_fire: "Vatrootpornost",
-    quality_fire_desc: "B-s1,d0 klasifikacija",
+    quality_fire_desc: "",
 
     // Contact
     contact_title: "Kontaktirajte nas",
