@@ -527,7 +527,7 @@ const translations = {
 
     // About
     about_title: "About Our Company",
-    about_subtitle: "Polycarbonate sheet manufacturer with production in Subotica and head office in Belgrade, Serbia",
+    about_subtitle: "",
     about_p1: "Balkan Plastics Company was founded in Serbia in 2017. Our core specialty is the production of multiwall and solid polycarbonate sheets, as well as polycarbonate profiles (U and H profiles). After two years of investment in quality equipment and production facility, we started manufacturing in November 2019.",
     about_p2: "Since then, our products have been recognized across Europe — available not only in Serbia, but also in Croatia, Bosnia and Herzegovina, North Macedonia, Montenegro, Moldova, Lithuania, Bulgaria, Poland, Czech Republic, Germany and many other European countries.",
     about_p3: "We use only premium raw materials from leading global manufacturers — Covestro and Sabic — to produce sheets that meet the highest EU quality standards. Quality products, satisfied customers, and fast delivery times are the goals we strive for every day.",
@@ -1103,7 +1103,7 @@ const translations = {
 
     // About
     about_title: "O našoj kompaniji",
-    about_subtitle: "Proizvođač polikarbonatnih ploča sa proizvodnjom u Subotici i sedištem u Beogradu, Srbija",
+    about_subtitle: "",
     about_p1: "Balkan Plastics Company je privredno društvo osnovano u Srbiji 2017. godine. Osnovna delatnost i specijalnost naše kompanije je proizvodnja višeslojnih i monolitnih ploča od polikarbonata, kao i proizvodnja prateće galanterije (U i H profili). Nakon dvogodišnjih ulaganja u kvalitetnu opremu i proizvodni pogon, počeli smo sa proizvodnjom u novembru 2019. godine.",
     about_p2: "Od tada, naš proizvod je prepoznat u mnogim zemljama Evrope — dostupan je ne samo u Srbiji, već i u Hrvatskoj, Bosni i Hercegovini, Severnoj Makedoniji, Crnoj Gori, Moldaviji, Litvaniji, Bugarskoj, Poljskoj, Češkoj, Nemačkoj i mnogim drugim zemljama.",
     about_p3: "Za proizvodnju koristimo primarnu granulu od vodećih proizvođača sirovina — Covestro i Sabic. Kvalitetan proizvod, zadovoljni kupci i kratki rokovi isporuke su ciljevi ka kojima svakodnevno težimo.",
