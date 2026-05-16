@@ -588,8 +588,8 @@ const translations = {
     aria_menu: "Otvori meni",
 
     // Hero
-    hero_title: "",
-    hero_subtitle: "Polikarbonatne ploče visokog kvaliteta",
+    hero_title: "Polikarbonatne ploče visokog kvaliteta",
+    hero_subtitle: "",
     hero_desc: "",
     hero_btn_products: "Naši proizvodi",
     hero_btn_contact: "Kontaktirajte nas",
