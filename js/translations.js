@@ -1094,7 +1094,7 @@ const translations = {
     applications_subtitle: "Naše polikarbonatne ploče se koriste u širokom spektru industrija",
     app_construction: "Građevina i arhitektura",
     app_construction_desc: "Krovovi, nadstrešnice, svetlarnici, pregradni zidovi",
-    app_agriculture: "poljoprivreda I plastenici",
+    app_agriculture: "Poljoprivreda I plastenici",
     app_agriculture_desc: "Plastenici, ograde za stoku, konstrukcije za navodnjavanje",
     app_industrial: "Industrija i bezbednost",
     app_industrial_desc: "Zaštitne ograde mašina, sigurnosno zastakljivanje, zvučne barijere",
