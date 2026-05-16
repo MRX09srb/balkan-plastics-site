@@ -723,7 +723,8 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--shadow-sm);
   transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
   border: 1px solid var(--gray-300);
-  display: block;
+  display: flex;
+  flex-direction: column;
   color: inherit;
   text-decoration: none;
 }
@@ -763,6 +764,9 @@ img { max-width: 100%; display: block; }
 
 .product-content {
   padding: 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-content h3 {
@@ -780,6 +784,7 @@ img { max-width: 100%; display: block; }
 .product-features {
   list-style: none;
   margin-bottom: 24px;
+  margin-top: auto;
 }
 
 .product-features li {
