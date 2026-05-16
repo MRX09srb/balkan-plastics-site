@@ -589,7 +589,7 @@ const translations = {
 
     // Hero
     hero_title: "Polikarbonatne ploče",
-    hero_subtitle: "Proizvedeno u Srbiji za globalna tržišta",
+    hero_subtitle: "Polikarbonatne ploče visokog kvaliteta",
     hero_desc: "Višeslojne i monolitne polikarbonatne ploče vrhunskih performansi — visoka propustljivost svetlosti, otpornost na udarce i odlična termoizolacija.",
     hero_btn_products: "Naši proizvodi",
     hero_btn_contact: "Kontaktirajte nas",
