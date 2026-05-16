@@ -35,7 +35,7 @@ const translations = {
     product_multiwall_f4: "UV protection on one side",
 
     product_solid_title: "Solid Polycarbonate Sheets",
-    product_solid_desc: "Crystal-clear panels with exceptional impact resistance — 250 times stronger than glass. Ideal for security glazing, machine guards, noise barriers, and architectural features.",
+    product_solid_desc: "Sheets with exceptional impact resistance — 250 times stronger than glass. The material is ideal for glazing, protective barriers, noise barriers, etc.",
     product_solid_f1: "Thickness: 2mm – 12mm",
     product_solid_f2: "Light transmission up to 90%",
     product_solid_f3: "Impact resistance: 250x glass",
@@ -612,7 +612,7 @@ const translations = {
     product_multiwall_f4: "UV zaštita sa jedne strane",
 
     product_solid_title: "Monolitne polikarbonatne ploče",
-    product_solid_desc: "Kristalno čisti paneli sa izuzetnom otpornošću na udarce — 250 puta jači od stakla. Idealni za sigurnosno zastakljivanje, zaštitne ograde mašina, zvučne barijere i arhitektonske elemente.",
+    product_solid_desc: "Ploče sa izuzetnom otpornošću na udarce I 250 puta jače od stakla. Materijal je idealan za zastakljivanje, zaštitne ograde, zvučne barijere itd.",
     product_solid_f1: "Debljina: 2mm – 12mm",
     product_solid_f2: "Propustljivost svetlosti do 90%",
     product_solid_f3: "Otpornost na udarce: 250x staklo",
