@@ -9,7 +9,7 @@ function setLanguage(lang) {
   // Update all translatable elements
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (translations[lang] && translations[lang][key]) {
+    if (translations[lang] && translations[lang][key] !== undefined) {
       el.textContent = translations[lang][key];
     }
   });
