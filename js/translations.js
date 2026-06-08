@@ -570,7 +570,7 @@ const translations = {
     meta_desc_signage: "Polycarbonate solutions for signage and design. Illuminated signs, light diffusers, backlit panels, interior design elements, and creative architectural features.",
     meta_title_contact: "Contact Us - Balkan Plastics Company",
     meta_title_thanks: "Thank You - Balkan Plastics Company",
-    meta_title_privacy: "Privacy Policy — Balkan Plastics Company",
+    meta_title_privacy: "Privacy Policy - Balkan Plastics Company",
     meta_desc_privacy: "Privacy Policy for balkanplastics.com - what data we collect, how we use it, and your rights under GDPR.",
   },
 
@@ -1124,7 +1124,7 @@ const translations = {
     footer_privacy: "Politika privatnosti",
 
     // SEO
-    meta_title_index: "Balkan Plastics Company – Proizvođač polikarbonatnih ploča premijum kvaliteta",
+    meta_title_index: "Balkan Plastics Company - Proizvođač polikarbonatnih ploča premijum kvaliteta",
     meta_desc_index: "Balkan Plastics Company – Vodeći proizvođač saćastih I monolitnih polikarbonatnih ploča u Subotici u Srbiji. Premijum kvalitet, evropska tehnologija, isporuka širom sveta.",
     meta_title_multiwall: "Saćaste polikarbonatne ploče - Balkan Plastics Company",
     meta_desc_multiwall: "Saćaste polikarbonatne ploče premijum kvaliteta sa UV zaštitom. Debljine od 4mm – 20mm. Odlična termoizolacione karakteristike I odlično propuštanje svetlosti.",
@@ -1144,7 +1144,7 @@ const translations = {
     meta_desc_signage: "Polikarbonatna rešenja za signalizaciju i dizajn. Svetleće reklame, difuzori svetlosti, pozadinski osvetljeni paneli, elementi enterijerskog dizajna i kreativna arhitektonska rešenja.",
     meta_title_contact: "Kontaktirajte nas - Balkan Plastics Company",
     meta_title_thanks: "Hvala Vam. - Balkan Plastics Company",
-    meta_title_privacy: "Politika privatnosti — Balkan Plastics Company",
+    meta_title_privacy: "Politika privatnosti - Balkan Plastics Company",
     meta_desc_privacy: "Politika privatnosti za balkanplastics.com - koje podatke prikupljamo, kako ih koristimo i vaša prava u skladu sa GDPR-om.",
   }
 };
