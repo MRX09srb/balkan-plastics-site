@@ -30,6 +30,22 @@ function setLanguage(lang) {
     }
   });
 
+  // Update document <title> (SEO)
+  document.querySelectorAll('[data-i18n-title]').forEach(el => {
+    const key = el.getAttribute('data-i18n-title');
+    if (translations[lang] && translations[lang][key]) {
+      document.title = translations[lang][key];
+    }
+  });
+
+  // Update meta content, e.g. <meta name="description"> (SEO)
+  document.querySelectorAll('[data-i18n-content]').forEach(el => {
+    const key = el.getAttribute('data-i18n-content');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('content', translations[lang][key]);
+    }
+  });
+
   // Update language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
