@@ -5,6 +5,7 @@ function setLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
   document.documentElement.lang = lang;
+  document.dispatchEvent(new CustomEvent('bp:langchange', { detail: lang }));   // captcha follows the site language (contact.js)
 
   // Update all translatable elements
   document.querySelectorAll('[data-i18n]').forEach(el => {

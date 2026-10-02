@@ -14,6 +14,26 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // Captcha in the site language (EN/SR), not the browser's (02.10). api.js is loaded with
+  // render=explicit; we wait for it, render with language, and re-render on language switch
+  // (main.js setLanguage fires 'bp:langchange'). Turnstile codes: 'en', 'sr'.
+  var captchaEl = document.querySelector('.cf-turnstile');
+  var captchaId = null, captchaLang = null;
+  function siteLang() { return (localStorage.getItem('lang') || document.documentElement.lang) === 'sr' ? 'sr' : 'en'; }
+  function renderCaptcha(tries) {
+    if (!captchaEl) return;
+    if (!window.turnstile) { if ((tries || 0) < 100) setTimeout(function() { renderCaptcha((tries || 0) + 1); }, 100); return; }
+    var lang = siteLang();
+    if (captchaId !== null && lang === captchaLang) return;
+    if (captchaId !== null) window.turnstile.remove(captchaId);
+    captchaLang = lang;
+    captchaId = window.turnstile.render(captchaEl, {
+      sitekey: captchaEl.dataset.sitekey, theme: captchaEl.dataset.theme, size: captchaEl.dataset.size, language: lang,
+    });
+  }
+  renderCaptcha(0);
+  document.addEventListener('bp:langchange', function() { renderCaptcha(0); });
+
   // Contact form: AJAX POST to /api/contact
   var form = document.getElementById('contact-form');
   if (!form) return;
