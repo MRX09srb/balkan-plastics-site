@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }).then(function(r) {
       if (r.ok) {
         form.reset();
-        window.location.href = '/thanks.html';
+        window.location.href = /^\/sr\//.test(location.pathname) ? '/sr/thanks.html' : '/thanks.html';   // Serbian pages: tools/build-sr.js
         return;
       }
       // Body may be missing or not JSON (e.g. 502 from nginx) - then the reason is 'other'.

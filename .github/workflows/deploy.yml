@@ -16,6 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Serbian pages /sr/*.html from the pages + js/translations.js (search engines see both languages)
+      - name: Build Serbian pages
+        run: node tools/build-sr.js .
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -30,6 +34,7 @@ jobs:
             --exclude='.github' \
             --exclude='README.md' \
             --exclude='.gitignore' \
+            --exclude='tools' \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no" \
             ./ "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/balkanplastics/"
 

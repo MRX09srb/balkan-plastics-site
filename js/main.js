@@ -1,5 +1,16 @@
 // Language switching
-let currentLang = localStorage.getItem('lang') || 'en';
+// On the live site every page has a Serbian twin /sr/<page> with the texts already in the HTML
+// (tools/build-sr.js, on deploy) and both carry <link rel="alternate" hreflang> to each other.
+// There the address decides the language and EN/SR open the twin page, so search engines see
+// both languages. Without those links (GitHub Pages preview, a local file) texts switch in place.
+function twinUrl(lang) {
+  const link = document.querySelector(`link[rel="alternate"][hreflang="${lang}"]`);
+  return link ? new URL(link.href).pathname + location.hash : null;
+}
+const PAGE_LANG = twinUrl('sr') ? document.documentElement.lang : null;   // 'en' | 'sr' on the live site
+let currentLang = PAGE_LANG || localStorage.getItem('lang') || 'en';
+// A visitor who chose Serbian before goes straight to the Serbian page.
+if (PAGE_LANG === 'en' && localStorage.getItem('lang') === 'sr') location.replace(twinUrl('sr'));
 
 function setLanguage(lang) {
   currentLang = lang;
@@ -197,7 +208,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Language switcher
   document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      if (PAGE_LANG && lang !== PAGE_LANG) {   // live site: open the same page in that language
+        localStorage.setItem('lang', lang);
+        location.href = twinUrl(lang);
+        return;
+      }
+      setLanguage(lang);
+    });
   });
 
   initLightbox();

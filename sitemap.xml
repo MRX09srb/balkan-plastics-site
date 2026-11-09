@@ -11,4 +11,16 @@
   <url><loc>https://balkanplastics.com/applications.html</loc></url>
   <url><loc>https://balkanplastics.com/contact.html</loc></url>
   <url><loc>https://balkanplastics.com/privacy.html</loc></url>
+  <!-- Serbian versions: built on deploy by tools/build-sr.js -->
+  <url><loc>https://balkanplastics.com/sr/</loc></url>
+  <url><loc>https://balkanplastics.com/sr/solid.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/multiwall.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/profiles.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/construction.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/industrial.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/agriculture.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/signage.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/applications.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/contact.html</loc></url>
+  <url><loc>https://balkanplastics.com/sr/privacy.html</loc></url>
 </urlset>
