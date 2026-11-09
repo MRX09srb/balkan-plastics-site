@@ -39,6 +39,36 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!form) return;
   var status = document.getElementById('contact-form-status');
   var btn = form.querySelector('button[type="submit"]');
+
+  // Error text by reason, in the site language (09.11). SR is a draft for the translator.
+  // Kept here, not in translations.js: that file is already over the size limit.
+  var ERRORS = {
+    en: {
+      captcha: 'Please complete the security check and send again.',
+      email: 'Please check your email address and try again.',
+      limit: 'Too many attempts. Please wait 10 minutes or email us at info@balkanplastics.com.',
+      other: 'The message could not be sent. Please try again or email us at info@balkanplastics.com.',
+    },
+    sr: {
+      captcha: 'Molimo potvrdite sigurnosnu proveru i pošaljite ponovo.',
+      email: 'Molimo proverite e-mail adresu i pokušajte ponovo.',
+      limit: 'Previše pokušaja. Sačekajte 10 minuta ili nam pišite na info@balkanplastics.com.',
+      other: 'Poruka nije poslata. Pokušajte ponovo ili nam pišite na info@balkanplastics.com.',
+    },
+  };
+  // Server answers (app.py): 400 'captcha failed' | 400 'invalid input' | 429 | 502 'send failed'.
+  function errorReason(code, error) {
+    if (code === 429) return 'limit';
+    if (error === 'captcha failed') return 'captcha';
+    if (error === 'invalid input') return 'email';
+    return 'other';
+  }
+  // The captcha token is single-use and the server spends it even when it then rejects the
+  // form (bad email, mail failure, limit). Without a fresh one every retry fails until reload.
+  function resetCaptcha() {
+    if (window.turnstile && captchaId !== null) window.turnstile.reset(captchaId);
+  }
+
   form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     if (status) { status.textContent = ''; status.className = 'contact-form-status'; }
@@ -53,12 +83,18 @@ document.addEventListener('DOMContentLoaded', function() {
       if (r.ok) {
         form.reset();
         window.location.href = '/thanks.html';
-      } else {
-        return r.json().then(function(j) { throw new Error(j.error || 'send failed'); }).catch(function() { throw new Error('send failed'); });
+        return;
       }
+      // Body may be missing or not JSON (e.g. 502 from nginx) - then the reason is 'other'.
+      return r.json().catch(function() { return {}; }).then(function(j) {
+        var e = new Error('send failed');
+        e.reason = errorReason(r.status, j && j.error);
+        throw e;
+      });
     }).catch(function(err) {
+      resetCaptcha();
       if (status) {
-        status.textContent = 'Failed to send: ' + err.message + '. Please try again or email us directly.';
+        status.textContent = ERRORS[siteLang()][(err && err.reason) || 'other'];   // network error -> 'other'
         status.className = 'contact-form-status error';
       }
     }).finally(function() {
